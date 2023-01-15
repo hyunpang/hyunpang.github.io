@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>18:43</span>
+        <i class="fas fa-snowflake"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
+        <span>45%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">친구</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-globe-americas fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-user-plus fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="./image/rian.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">라이언</h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>생일인 친구</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="./image/choonsik.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                춘식이
+              </h4>
+              <i class="fas fa-birthday-cake"></i>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__gift">
+              <a href="https://gift.kakao.com/home">
+                <span>선물하기</span>
+                <i class="fas fa-gift"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>친구</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component friendMargin">
+          <div class="user-component__column">
+            <img
+              src="./image/jayg.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                제이지
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friendMargin">
+          <div class="user-component__column">
+            <img
+              src="./image/muzi.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                무지
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friendMargin">
+          <div class="user-component__column">
+            <img
+              src="./image/neo.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                네오
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friendMargin">
+          <div class="user-component__column">
+            <img
+              src="./image/frodo.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                프로도
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friendMargin">
+          <div class="user-component__column">
+            <img
+              src="./image/con2.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                콘
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="music.html"
+            ><i class="fas fa-music fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="settings.html"
+            ><i class="fas fa-cog fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>화면 크기가 안맞아요</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
